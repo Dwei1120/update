@@ -97,7 +97,7 @@ public class ModelSettingFragment extends BaseLazyFragment {
         tvPlay = findViewById(R.id.tvPlay);
         tvRender = findViewById(R.id.tvRenderType);
         tvScale = findViewById(R.id.tvScaleType);
-        //tvApi = findViewById(R.id.tvApi);
+        tvApi = findViewById(R.id.tvApi);
         tvEpgApi = findViewById(R.id.tvEpgApi);
         tvHomeApi = findViewById(R.id.tvHomeApi);
         tvDns = findViewById(R.id.tvDns);
@@ -272,7 +272,7 @@ public class ModelSettingFragment extends BaseLazyFragment {
                 dialog.show();
             }
         });
-/*        findViewById(R.id.llApi).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.llApi).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FastClickCheckUtil.check(v);
@@ -285,7 +285,6 @@ public class ModelSettingFragment extends BaseLazyFragment {
                         tvApi.setText(api);
                     }
                 });
-*/
                 dialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
                     @Override
                     public void onDismiss(DialogInterface dialog) {
